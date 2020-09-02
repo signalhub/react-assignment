@@ -1,0 +1,66 @@
+[
+  {
+    "tradeId": 1,
+    "userId": 1,
+    "username": "Chanaaar",
+    "avatar": "https://avatars.dicebear.com/api/avataaars/w.svg?m=5&b=%23bef2f9&facialHairChance=32",
+    "reputation": {
+      "positive": "37",
+      "negative": "4"
+    },
+    "paymentMethod": "Amazon Gift Card",
+    "amount": "77",
+    "unreadStatus": false,
+    "paidStatus": true,
+    "hash": "kdsndIN1",
+    "countTrades": 4
+  },
+  {
+    "tradeId": 2,
+    "userId": 2,
+    "username": "Chanaaar",
+    "avatar": "https://avatars.dicebear.com/api/avataaars/w.svg?m=5&b=%23bef2f9&facialHairChance=32",
+    "reputation": {
+      "positive": "15",
+      "negative": "3"
+    },
+    "paymentMethod": "iTunes Gift Card",
+    "amount": "35",
+    "unreadStatus": false,
+    "paidStatus": false,
+    "hash": "kdsndIN2",
+    "countTrades": 14
+  },
+  {
+    "tradeId": 3,
+    "userId": 3,
+    "username": "Chanaaar",
+    "avatar": "https://avatars.dicebear.com/api/avataaars/w.svg?m=5&b=%23bef2f9&facialHairChance=32",
+    "reputation": {
+      "positive": "109",
+      "negative": "65"
+    },
+    "paymentMethod": "PayPal",
+    "amount": "67",
+    "unreadStatus": false,
+    "paidStatus": true,
+    "hash": "kdsndIN3",
+    "countTrades": 42
+  },
+  {
+    "tradeId": 4,
+    "userId": 4,
+    "username": "Antonio",
+    "avatar": "https://avatars.dicebear.com/api/avataaars/4ffd.svg?b=%2316bac5&top[]=hat&facialHairChance=32&eyes[]=wink",
+    "reputation": {
+      "positive": "1567",
+      "negative": "9"
+    },
+    "paymentMethod": "Tinkoff Credit Card",
+    "amount": "12300",
+    "unreadStatus": false,
+    "paidStatus": true,
+    "hash": "kdsndIN3",
+    "countTrades": 42
+  }
+]

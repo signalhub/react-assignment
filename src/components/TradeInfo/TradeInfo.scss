@@ -1,0 +1,72 @@
+.Info {
+  padding: 2rem 1rem;
+
+  .Button {
+    background: #53d48b;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1px 1px rgba(2, 143, 62, 0.6);
+
+    &:hover {
+      background: #4bc37e;
+    }
+
+    &.Disabled {
+      background: #e0e2e3;
+    }
+  }
+
+  .TradeStatus {
+    padding-top: 0;
+  }
+
+  .UserName {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .Date {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.Details {
+  padding: 2rem 1rem;
+
+  .Item {
+    display: flex;
+    align-items: flex-end;
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      border-bottom: 1px solid #e0e2e3;
+
+      &:nth-child(2) {
+        border-left: 1px solid #e0e2e3;
+      }
+    }
+
+    .ItemName {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .Grey {
+      color: #98999b;
+    }
+  }
+}
+
+.IconClose {
+  position: relative;
+  @media only screen and (min-width: 1200px) {
+    display: none;
+  }
+}

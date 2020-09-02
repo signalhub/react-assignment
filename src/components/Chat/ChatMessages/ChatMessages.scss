@@ -1,0 +1,71 @@
+.ItemMessage {
+  margin-bottom: 1rem;
+  position: relative;
+
+  .col {
+    position: relative;
+    padding: .2rem;
+  }
+
+  .Avatar {
+    padding-bottom: 1.5rem !important;
+    img {
+      padding: 0.5rem;
+    }
+  }
+}
+
+.Message {
+  font-size: .9rem;
+  padding: 1rem;
+  color: #959597;
+  border-radius: 4px;
+
+  &__buyer {
+    background: #395e84;
+    color: white;
+  }
+
+  &__seller {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .125)
+  }
+}
+
+.Bubble {
+  &:before {
+    position: absolute;
+    top: calc(50% - 1rem);
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 4px solid transparent;
+  }
+
+  &.Left {
+    &:before {
+      left: -3px;
+      border-top: 4px solid transparent;
+      border-right: 6px solid #dfdfdf;
+    }
+  }
+
+  &.Right {
+    &:before {
+      left: calc(100% - 1rem + 10px);
+      border-top: 4px solid transparent;
+      border-left: 6px solid #395e84;
+    }
+  }
+}
+
+.Date {
+  font-size: 0.7rem;
+  padding: 0.3rem 0;
+  color: #959597;
+
+  &__buyer {
+    float: right;
+  }
+}

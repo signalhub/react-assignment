@@ -1,0 +1,57 @@
+.WrapperHeader {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 0;
+  margin-bottom: 1rem;
+
+  .col {
+    margin-left: 0 !important;
+  }
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #98999b;
+
+  .Method {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    white-space: nowrap;
+  }
+}
+
+.Reputation {
+  display: flex;
+
+  .Positive {
+    color: #19bf33;
+
+    &:before {
+      content: '+';
+    }
+  }
+
+  .Negative {
+    color: #e3394d;
+
+    &:before {
+      content: '-';
+    }
+  }
+}
+
+.Divider {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .IconRelease {
+    display: none;
+  }
+}

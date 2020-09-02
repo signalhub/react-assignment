@@ -1,0 +1,42 @@
+.switch {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 0 1rem;
+  @media only screen and (max-width: 601px) {
+    .Avatar {
+      display: none;
+    }
+  }
+
+  label {
+    width: 100%;
+
+    .lever {
+      width: 30px;
+      height: 16px;
+      background: rgb(224, 226, 227);
+    }
+  }
+}
+
+.switch label .lever:before, .switch label .lever:after {
+  width: 12px;
+  height: 12px;
+  left: 2px;
+  top: 2px;
+}
+
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #395e84;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #f5f7fa;
+  left: 15px;
+}
+
+input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before, input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
+  background-color: rgba(57, 94, 132, 0.15);
+}

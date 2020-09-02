@@ -1,0 +1,36 @@
+.Logo {
+  position: relative;
+  top: 1rem;
+  width: 50%;
+  background: white;
+
+  svg {
+    position: absolute;
+    width: 86px;
+    transform: translate(50%, 50%);
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .Logo .brand-logo {
+    left: 0;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .Logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .Logo {
+    display: block;
+    .brand-logo {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

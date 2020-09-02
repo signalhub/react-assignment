@@ -1,0 +1,7 @@
+.wrapper-messages {
+  height: calc(100% - 17rem);
+  overflow: auto;
+  @media only screen and (max-width: 601px) {
+    height: calc(100% - 15rem);
+  }
+}

@@ -1,0 +1,23 @@
+.Icon {
+  border-radius: 50%;
+  background: #e0e2e3;
+  color: white;
+  padding: 0.5rem;
+  height: auto !important;
+  line-height: 24px !important;
+  &.Dark {
+    background: transparent;
+    color: #395e84;
+  }
+  &.Active {
+    background: #53d48a;
+  }
+
+  &.TopLeft {
+    position: absolute;
+    padding: 1rem;
+    color: #e0e2e3;
+    top: 0;
+    left: 0;
+  }
+}

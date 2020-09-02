@@ -1,0 +1,88 @@
+a {
+  color: #333;
+}
+
+.Trade {
+  transition: all .3s ease-in;
+  box-shadow: 1px 0 1px rgba(0, 0, 0, 0);
+  border: 1px solid #f4f4f6;
+  margin: 0 0 0 !important;
+  width: 100%;
+  padding: 1rem !important;
+  &:hover {
+    background: #f5f7fa;
+  }
+
+  &.Active {
+    //transform: translate(.8rem, 0);
+    width: calc(100% + .7rem);
+    //box-shadow: 2px 0 1px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #d3dbe3;
+    border-right: 1px solid #d3dbe3;
+    border-bottom: 1px solid #d3dbe3;
+    background: #f5f7fa;
+    border-radius: 0 4px 4px 0;
+    .DialogInfo {
+      transform: translate(.7rem, 0);
+    }
+    .Process {
+      color: #6d83a0;
+    }
+    .PaymentMethod {
+      font-weight: 400;
+    }
+    .Amount {
+      color: #333333;
+    }
+  }
+}
+
+.DialogInfo {
+  margin-left: 0;
+  display: flex;
+  align-items: baseline;
+  transition: all .3s ease-in;
+  padding: 0 !important;
+}
+
+.State {
+  margin-left: .7rem;
+}
+
+.Status {
+  position: relative;
+  background: #c6c6c6;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  &.Unread {
+    background: #19bf33;
+  }
+}
+
+.Process {
+  color: #959597;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.PaymentMethod {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.Amount {
+  color: #959597;
+}
+
+.TradeStatus {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 700;
+  padding-top: 0.7rem;
+  &.Paid {
+    font-size: 14px;
+    color: #19bf33;
+  }
+}

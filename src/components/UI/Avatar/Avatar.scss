@@ -1,0 +1,19 @@
+.Avatar {
+  width: 1rem !important;
+}
+
+.Avatar {
+  min-width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &.small {
+    padding: .75rem;
+  }
+  &.Outline {
+    img {
+      border: 1px solid #e0e2e3;
+      padding: 0.1rem;
+    }
+  }
+}
